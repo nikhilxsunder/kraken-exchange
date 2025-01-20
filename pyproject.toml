@@ -3,8 +3,8 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "binance_us"
-version = "0.0.9"
+name = "kraken-exchange"
+version = "0.0.2"
 dependencies = [
 "requests"
 ]
@@ -15,7 +15,7 @@ authors = [
 maintainers = [
   {name="Nikhil Sunder", email="nsunder724@gmail.com"}
 ]
-description = "A simple package for connecting to the the Binance US API."
+description = "A simple package for connecting to the the Kraken API."
 readme = "README.md"
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -26,9 +26,9 @@ classifiers = [
     "Topic :: Office/Business :: Financial :: Investment"
 ]
 license = {file = "LICENSE"}
-keywords = ["binance", "crypto", "api", "finance", "binance api"]
+keywords = ["kraken", "crypto", "api", "finance", "kraken api"]
 
 [project.urls]
-Repository = "https://github.com/nikhilxsunder/binance_us"
-Issues = "https://github.com/nikhilxsunder/binance_us/issues"
-Documentation = "https://docs.binance.us/#introduction"
+Repository = "https://github.com/nikhilxsunder/kraken-exchange"
+Issues = "https://github.com/nikhilxsunder/kraken-exchange/issues"
+Documentation = "https://docs.kraken.com/api/"
